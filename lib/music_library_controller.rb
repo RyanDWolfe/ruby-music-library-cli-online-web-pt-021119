@@ -77,6 +77,8 @@ class MusicLibraryController
 
     input = gets.strip.to_i
 
+    puts "Playing #{song.name} by #{song.artist.name}"
+
   end
 
 end
